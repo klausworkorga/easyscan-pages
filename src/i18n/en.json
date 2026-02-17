@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "title": "ScanEasy — Scan documents. Simply.",
+    "description": "ScanEasy is the easiest way to scan documents with your iPhone. Free, private, offline."
+  },
+  "nav": {
+    "langFlag": "🇬🇧",
+    "otherLang": "de",
+    "otherFlag": "🇩🇪",
+    "otherTitle": "Deutsch"
+  },
+  "hero": {
+    "tagline": "Scan documents. Simply."
+  },
+  "features": {
+    "autoDetect": {
+      "icon": "📸",
+      "title": "Auto-Detection",
+      "desc": "Point your camera — ScanEasy detects the document automatically and captures it."
+    },
+    "private": {
+      "icon": "🔒",
+      "title": "100% Private",
+      "desc": "No servers, no cloud, no tracking. Everything stays on your iPhone."
+    },
+    "fast": {
+      "icon": "⚡",
+      "title": "Lightning Fast",
+      "desc": "Scan, crop, share as PDF — in under 3 seconds."
+    }
+  },
+  "cta": {
+    "button": "Coming to App Store",
+    "sub": "Coming soon — free for iPhone"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "email": "easyscan-support@rooki.xyz",
+    "copyright": "© 2026 ScanEasy"
+  },
+  "privacy": {
+    "metaTitle": "Privacy Policy — ScanEasy",
+    "back": "← ScanEasy",
+    "otherLang": "de",
+    "otherLangLabel": "🇩🇪 Deutsch",
+    "title": "Privacy Policy",
+    "date": "Last updated: February 17, 2026",
+    "sections": {
+      "overview": {
+        "title": "1. Overview",
+        "paragraph": "ScanEasy (\"the App\") is a document scanner app for iOS. Your privacy matters to us. This privacy policy explains what data we collect and how we handle it."
+      },
+      "dataCollection": {
+        "title": "2. Data Collection",
+        "introStrong": "We do not collect any personal data.",
+        "introTail": "ScanEasy processes all data exclusively on your device:",
+        "items": [
+          {
+            "label": "Camera:",
+            "text": "Used solely for scanning documents. Images are processed locally and never transmitted to any server."
+          },
+          {
+            "label": "Photo Library:",
+            "text": "Accessed only when you import images from your gallery. We only read the images you select."
+          },
+          {
+            "label": "Scanned Documents:",
+            "text": "Remain exclusively on your device. We have no access to them."
+          }
+        ]
+      },
+      "noServers": {
+        "title": "3. No Servers, No Cloud",
+        "paragraph": "ScanEasy does not operate any servers and does not use any cloud services. All scanning, recognition, and processing features run 100% on your iPhone."
+      },
+      "thirdParties": {
+        "title": "4. Third Parties",
+        "paragraph": "The App does not use any third-party analytics, tracking, or advertising services. No data is shared with third parties."
+      },
+      "appleServices": {
+        "title": "5. Apple Services",
+        "beforeLink": "When using the App through the App Store,",
+        "linkText": "Apple's Privacy Policy",
+        "afterLink": "also applies. Apple may collect anonymized usage data (e.g., app crashes) if you have consented to this in your device settings."
+      },
+      "permissions": {
+        "title": "6. Permissions",
+        "items": [
+          {
+            "label": "Camera",
+            "text": "Required for document scanning"
+          },
+          {
+            "label": "Photo Library",
+            "text": "Optional, for importing images"
+          }
+        ],
+        "paragraph": "You can revoke permissions at any time in iOS Settings."
+      },
+      "changes": {
+        "title": "7. Changes",
+        "paragraph": "We may update this privacy policy from time to time. Changes will be published on this page."
+      },
+      "contact": {
+        "title": "8. Contact",
+        "prefix": "Questions about privacy? Write to us:"
+      }
+    }
+  },
+  "terms": {
+    "metaTitle": "Terms of Service — ScanEasy",
+    "back": "← ScanEasy",
+    "otherLang": "de",
+    "otherLangLabel": "🇩🇪 Deutsch",
+    "title": "Terms of Service",
+    "date": "Last updated: February 17, 2026",
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance",
+        "paragraph": "By using ScanEasy (\"the App\"), you agree to these Terms of Service. If you do not agree, please do not use the App."
+      },
+      "use": {
+        "title": "2. Use of the App",
+        "paragraph": "ScanEasy is a free document scanner app for iOS. You may use the App for personal and commercial purposes. You are solely responsible for ensuring that you use scanned documents lawfully."
+      },
+      "intellectualProperty": {
+        "title": "3. Intellectual Property",
+        "paragraph": "The App, including its design, code, and content, is protected by copyright. You may not copy, modify, decompile, or otherwise reverse-engineer the App."
+      },
+      "yourContent": {
+        "title": "4. Your Content",
+        "paragraph": "All documents you scan with ScanEasy belong to you. We do not claim any rights to your scanned content. Since all data remains locally on your device, you are responsible for backing it up."
+      },
+      "availability": {
+        "title": "5. Availability",
+        "paragraph": "We strive to keep the App functional but cannot guarantee uninterrupted availability. We reserve the right to modify or discontinue the App at any time."
+      },
+      "disclaimer": {
+        "title": "6. Disclaimer",
+        "paragraphs": [
+          "The App is provided \"as is.\" We make no warranties regarding the completeness, accuracy, or quality of scan results. The App is not a substitute for professional digitization services.",
+          "In no event shall we be liable for any indirect, incidental, or consequential damages arising from the use of the App."
+        ]
+      },
+      "changes": {
+        "title": "7. Changes",
+        "paragraph": "We may change these Terms of Service at any time. Continued use of the App after changes constitutes acceptance of the updated terms."
+      },
+      "governingLaw": {
+        "title": "8. Governing Law",
+        "paragraph": "German law applies. Place of jurisdiction is Germany."
+      },
+      "contact": {
+        "title": "9. Contact",
+        "prefix": "Questions? Write to us:"
+      }
+    }
+  }
+}

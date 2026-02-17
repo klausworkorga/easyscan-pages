@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "title": "ScanEasy — Dokumente scannen. Einfach.",
+    "description": "ScanEasy ist die einfachste Art, Dokumente mit deinem iPhone zu scannen. Kostenlos, privat, offline."
+  },
+  "nav": {
+    "langFlag": "🇩🇪",
+    "otherLang": "en",
+    "otherFlag": "🇬🇧",
+    "otherTitle": "English"
+  },
+  "hero": {
+    "tagline": "Dokumente scannen. Einfach."
+  },
+  "features": {
+    "autoDetect": {
+      "icon": "📸",
+      "title": "Auto-Erkennung",
+      "desc": "Halte die Kamera drauf — ScanEasy erkennt das Dokument automatisch und scannt es."
+    },
+    "private": {
+      "icon": "🔒",
+      "title": "100% Privat",
+      "desc": "Keine Server, keine Cloud, kein Tracking. Alles bleibt auf deinem iPhone."
+    },
+    "fast": {
+      "icon": "⚡",
+      "title": "Blitzschnell",
+      "desc": "Scannen, zuschneiden, als PDF teilen — in unter 3 Sekunden."
+    }
+  },
+  "cta": {
+    "button": "Bald im App Store",
+    "sub": "Kommt bald — kostenlos für iPhone"
+  },
+  "footer": {
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "contact": "Kontakt",
+    "email": "easyscan-support@rooki.xyz",
+    "copyright": "© 2026 ScanEasy"
+  },
+  "privacy": {
+    "metaTitle": "Datenschutzerklärung — ScanEasy",
+    "back": "← ScanEasy",
+    "otherLang": "en",
+    "otherLangLabel": "🇬🇧 English",
+    "title": "Datenschutzerklärung",
+    "date": "Zuletzt aktualisiert: 17. Februar 2026",
+    "sections": {
+      "overview": {
+        "title": "1. Überblick",
+        "paragraph": "ScanEasy (\"die App\") ist eine Dokumentenscanner-App für iOS. Deine Privatsphäre ist uns wichtig. Diese Datenschutzerklärung erläutert, welche Daten wir erheben und wie wir damit umgehen."
+      },
+      "dataCollection": {
+        "title": "2. Datenerhebung",
+        "introStrong": "Wir erheben keine personenbezogenen Daten.",
+        "introTail": "ScanEasy verarbeitet alle Daten ausschließlich lokal auf deinem Gerät:",
+        "items": [
+          {
+            "label": "Kamera:",
+            "text": "Wird ausschließlich zum Scannen von Dokumenten verwendet. Bilder werden nur lokal verarbeitet und nie an Server übertragen."
+          },
+          {
+            "label": "Fotobibliothek:",
+            "text": "Zugriff nur wenn du Bilder aus der Galerie importierst. Wir lesen nur die von dir ausgewählten Bilder."
+          },
+          {
+            "label": "Gescannte Dokumente:",
+            "text": "Verbleiben ausschließlich auf deinem Gerät. Wir haben keinen Zugriff darauf."
+          }
+        ]
+      },
+      "noServers": {
+        "title": "3. Keine Server, keine Cloud",
+        "paragraph": "ScanEasy betreibt keine Server und nutzt keine Cloud-Dienste. Alle Scan-, Erkennungs- und Verarbeitungsfunktionen laufen zu 100% auf deinem iPhone."
+      },
+      "thirdParties": {
+        "title": "4. Drittanbieter",
+        "paragraph": "Die App verwendet keine Analyse-, Tracking- oder Werbedienste von Drittanbietern. Es werden keine Daten an Dritte weitergegeben."
+      },
+      "appleServices": {
+        "title": "5. Apple-Dienste",
+        "beforeLink": "Wenn du die App über den App Store nutzt, gelten zusätzlich die",
+        "linkText": "Datenschutzrichtlinien von Apple",
+        "afterLink": ". Apple kann anonymisierte Nutzungsdaten erheben (z.B. App-Abstürze), sofern du dem in deinen Geräteeinstellungen zugestimmt hast."
+      },
+      "permissions": {
+        "title": "6. Berechtigungen",
+        "items": [
+          {
+            "label": "Kamera",
+            "text": "Erforderlich zum Scannen von Dokumenten"
+          },
+          {
+            "label": "Fotobibliothek",
+            "text": "Optional, zum Import von Bildern"
+          }
+        ],
+        "paragraph": "Du kannst Berechtigungen jederzeit in den iOS-Einstellungen widerrufen."
+      },
+      "changes": {
+        "title": "7. Änderungen",
+        "paragraph": "Wir können diese Datenschutzerklärung gelegentlich aktualisieren. Änderungen werden auf dieser Seite veröffentlicht."
+      },
+      "contact": {
+        "title": "8. Kontakt",
+        "prefix": "Fragen zum Datenschutz? Schreib uns:"
+      }
+    }
+  },
+  "terms": {
+    "metaTitle": "Nutzungsbedingungen — ScanEasy",
+    "back": "← ScanEasy",
+    "otherLang": "en",
+    "otherLangLabel": "🇬🇧 English",
+    "title": "Nutzungsbedingungen",
+    "date": "Zuletzt aktualisiert: 17. Februar 2026",
+    "sections": {
+      "acceptance": {
+        "title": "1. Akzeptanz",
+        "paragraph": "Durch die Nutzung von ScanEasy (\"die App\") stimmst du diesen Nutzungsbedingungen zu. Wenn du nicht einverstanden bist, nutze die App bitte nicht."
+      },
+      "use": {
+        "title": "2. Nutzung der App",
+        "paragraph": "ScanEasy ist eine kostenlose Dokumentenscanner-App für iOS. Du darfst die App für persönliche und geschäftliche Zwecke nutzen. Du bist selbst dafür verantwortlich, dass du die gescannten Dokumente rechtmäßig verwendest."
+      },
+      "intellectualProperty": {
+        "title": "3. Geistiges Eigentum",
+        "paragraph": "Die App, einschließlich ihres Designs, Codes und ihrer Inhalte, ist urheberrechtlich geschützt. Du darfst die App nicht kopieren, modifizieren, dekompilieren oder anderweitig zurückentwickeln."
+      },
+      "yourContent": {
+        "title": "4. Deine Inhalte",
+        "paragraph": "Alle Dokumente, die du mit ScanEasy scannst, gehören dir. Wir erheben keinen Anspruch auf deine gescannten Inhalte. Da alle Daten lokal auf deinem Gerät verbleiben, bist du für deren Sicherung selbst verantwortlich."
+      },
+      "availability": {
+        "title": "5. Verfügbarkeit",
+        "paragraph": "Wir bemühen uns, die App funktionsfähig zu halten, können aber keine ununterbrochene Verfügbarkeit garantieren. Wir behalten uns vor, die App jederzeit zu ändern oder einzustellen."
+      },
+      "disclaimer": {
+        "title": "6. Haftungsausschluss",
+        "paragraphs": [
+          "Die App wird \"wie besehen\" bereitgestellt. Wir übernehmen keine Gewähr für die Vollständigkeit, Richtigkeit oder Qualität der Scan-Ergebnisse. Die App dient nicht als Ersatz für professionelle Digitalisierungsdienste.",
+          "In keinem Fall haften wir für indirekte, zufällige oder Folgeschäden, die sich aus der Nutzung der App ergeben."
+        ]
+      },
+      "changes": {
+        "title": "7. Änderungen",
+        "paragraph": "Wir können diese Nutzungsbedingungen jederzeit ändern. Die Weiternutzung der App nach Änderungen gilt als Zustimmung zu den aktualisierten Bedingungen."
+      },
+      "governingLaw": {
+        "title": "8. Anwendbares Recht",
+        "paragraph": "Es gilt deutsches Recht. Gerichtsstand ist Deutschland."
+      },
+      "contact": {
+        "title": "9. Kontakt",
+        "prefix": "Fragen? Schreib uns:"
+      }
+    }
+  }
+}

@@ -1,1 +1,21 @@
-placeholder
+---
+const redirectScript = `
+  var lang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+  var isDE = lang.startsWith('de');
+  window.location.replace(isDE ? '/de' : '/en');
+`;
+---
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ScanEasy</title>
+    <script is:inline>{redirectScript}</script>
+    <noscript><meta http-equiv="refresh" content="0;url=/en" /></noscript>
+  </head>
+  <body>
+    <p>Redirecting… <a href="/en">English</a> · <a href="/de">Deutsch</a></p>
+  </body>
+</html>

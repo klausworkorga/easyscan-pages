@@ -1,0 +1,45 @@
+---
+import '../styles/global.css';
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+  title: string;
+  description?: string;
+  showGlow?: boolean;
+}
+
+const {
+  lang = 'en',
+  title,
+  description,
+  showGlow = false,
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+  </head>
+  <body>
+    {
+      showGlow && (
+        <>
+          <div class="glow glow-1"></div>
+          <div class="glow glow-2"></div>
+        </>
+      )
+    }
+    <slot />
+  </body>
+</html>
