@@ -15,7 +15,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
     <section class="hero">
       <div class="app-icon">
-        <img src="/icon.png" alt="ScanEasy" class="app-icon-img" width="96" height="96" />
+        <img src="/icon.png" alt="ScanEasy" class="app-icon-img" width="112" height="112" />
       </div>
       <h1>Scan<span class="gradient-text">Easy</span></h1>
       <p class="tagline" data-t="hero.tagline">Scan documents. Simply.</p>
@@ -23,20 +23,78 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
     <section class="features">
       <div class="feature">
-        <div class="feature-icon">📸</div>
-        <h3 data-t="features.autoDetect.title">Auto-Detection</h3>
-        <p data-t="features.autoDetect.desc">Point your camera — ScanEasy detects the document automatically and captures it.</p>
+        <div class="feature-icon">
+          <!-- Viewfinder / Camera Frame -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 7V3h4"/>
+            <path d="M22 7V3h-4"/>
+            <path d="M2 17v4h4"/>
+            <path d="M22 17v4h-4"/>
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M12 5v2"/>
+            <path d="M12 17v2"/>
+            <path d="M5 12h2"/>
+            <path d="M17 12h2"/>
+          </svg>
+        </div>
+        <div>
+          <h3 data-t="features.autoDetect.title">Auto-Detection</h3>
+          <p data-t="features.autoDetect.desc">Point your camera — ScanEasy detects the document automatically and captures it.</p>
+        </div>
       </div>
+
       <div class="feature">
-        <div class="feature-icon">🔒</div>
-        <h3 data-t="features.private.title">100% Private</h3>
-        <p data-t="features.private.desc">No servers, no cloud, no tracking. Everything stays on your iPhone.</p>
+        <div class="feature-icon">
+          <!-- Shield with Checkmark -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2l8 4v6c0 5.25-3.5 8.75-8 10-4.5-1.25-8-4.75-8-10V6l8-4z"/>
+            <path d="M9 12l2 2 4-4"/>
+          </svg>
+        </div>
+        <div>
+          <h3 data-t="features.private.title">100% Private</h3>
+          <p data-t="features.private.desc">No servers, no cloud, no tracking. Everything stays on your iPhone.</p>
+        </div>
       </div>
+
       <div class="feature">
-        <div class="feature-icon">⚡</div>
-        <h3 data-t="features.fast.title">Lightning Fast</h3>
-        <p data-t="features.fast.desc">Scan, crop, share as PDF — in under 3 seconds.</p>
+        <div class="feature-icon">
+          <!-- Lightning Bolt -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/>
+          </svg>
+        </div>
+        <div>
+          <h3 data-t="features.fast.title">Lightning Fast</h3>
+          <p data-t="features.fast.desc">Scan, crop, share as PDF — in under 3 seconds.</p>
+        </div>
       </div>
+    </section>
+
+    <section class="how-it-works">
+      <p class="section-title" data-t="howItWorks.title">How it works</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-connector"></div>
+          <div class="step-number">1</div>
+          <span class="step-label" data-t="howItWorks.step1">Point your camera</span>
+        </div>
+        <div class="step">
+          <div class="step-connector"></div>
+          <div class="step-number">2</div>
+          <span class="step-label" data-t="howItWorks.step2">Auto-scan</span>
+        </div>
+        <div class="step">
+          <div class="step-connector"></div>
+          <div class="step-number">3</div>
+          <span class="step-label" data-t="howItWorks.step3">Share as PDF</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust">
+      <p class="trust-tagline" data-t="trust.tagline">Built with ❤️ in Germany</p>
+      <p class="trust-features" data-t="trust.features">100% Offline • Zero Data Collection</p>
     </section>
 
     <section class="cta">

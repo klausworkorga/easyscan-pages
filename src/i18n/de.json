@@ -11,6 +11,16 @@
     "private": { "title": "100% Privat", "desc": "Keine Server, keine Cloud, kein Tracking. Alles bleibt auf deinem iPhone." },
     "fast": { "title": "Blitzschnell", "desc": "Scannen, zuschneiden, als PDF teilen — in unter 3 Sekunden." }
   },
+  "howItWorks": {
+    "title": "So funktioniert's",
+    "step1": "Kamera draufhalten",
+    "step2": "Auto-Scan",
+    "step3": "Als PDF teilen"
+  },
+  "trust": {
+    "tagline": "Made with ❤️ in Germany",
+    "features": "100% Offline • Keine Datenerhebung"
+  },
   "cta": {
     "button": "Bald im App Store",
     "sub": "Kommt bald — kostenlos für iPhone"

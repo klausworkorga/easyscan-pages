@@ -11,6 +11,16 @@
     "private": { "title": "100% Private", "desc": "No servers, no cloud, no tracking. Everything stays on your iPhone." },
     "fast": { "title": "Lightning Fast", "desc": "Scan, crop, share as PDF — in under 3 seconds." }
   },
+  "howItWorks": {
+    "title": "How it works",
+    "step1": "Point your camera",
+    "step2": "Auto-scan",
+    "step3": "Share as PDF"
+  },
+  "trust": {
+    "tagline": "Built with ❤️ in Germany",
+    "features": "100% Offline • Zero Data Collection"
+  },
   "cta": {
     "button": "Coming to App Store",
     "sub": "Coming soon — free for iPhone"

@@ -35,10 +35,9 @@ const { title, description, showGlow = false } = Astro.props;
   </head>
   <body>
     {showGlow && (
-      <>
-        <div class="glow glow-1"></div>
-        <div class="glow glow-2"></div>
-      </>
+      <div class="glow-mesh">
+        <div class="glow-blob"></div>
+      </div>
     )}
     <slot />
     <script>
