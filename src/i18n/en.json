@@ -3,31 +3,13 @@
     "title": "ScanEasy — Scan documents. Simply.",
     "description": "ScanEasy is the easiest way to scan documents with your iPhone. Free, private, offline."
   },
-  "nav": {
-    "langFlag": "🇬🇧",
-    "otherLang": "de",
-    "otherFlag": "🇩🇪",
-    "otherTitle": "Deutsch"
-  },
   "hero": {
     "tagline": "Scan documents. Simply."
   },
   "features": {
-    "autoDetect": {
-      "icon": "📸",
-      "title": "Auto-Detection",
-      "desc": "Point your camera — ScanEasy detects the document automatically and captures it."
-    },
-    "private": {
-      "icon": "🔒",
-      "title": "100% Private",
-      "desc": "No servers, no cloud, no tracking. Everything stays on your iPhone."
-    },
-    "fast": {
-      "icon": "⚡",
-      "title": "Lightning Fast",
-      "desc": "Scan, crop, share as PDF — in under 3 seconds."
-    }
+    "autoDetect": { "title": "Auto-Detection", "desc": "Point your camera — ScanEasy detects the document automatically and captures it." },
+    "private": { "title": "100% Private", "desc": "No servers, no cloud, no tracking. Everything stays on your iPhone." },
+    "fast": { "title": "Lightning Fast", "desc": "Scan, crop, share as PDF — in under 3 seconds." }
   },
   "cta": {
     "button": "Coming to App Store",
@@ -37,14 +19,9 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "contact": "Contact",
-    "email": "easyscan-support@rooki.xyz",
     "copyright": "© 2026 ScanEasy"
   },
   "privacy": {
-    "metaTitle": "Privacy Policy — ScanEasy",
-    "back": "← ScanEasy",
-    "otherLang": "de",
-    "otherLangLabel": "🇩🇪 Deutsch",
     "title": "Privacy Policy",
     "date": "Last updated: February 17, 2026",
     "sections": {
@@ -54,22 +31,10 @@
       },
       "dataCollection": {
         "title": "2. Data Collection",
-        "introStrong": "We do not collect any personal data.",
-        "introTail": "ScanEasy processes all data exclusively on your device:",
-        "items": [
-          {
-            "label": "Camera:",
-            "text": "Used solely for scanning documents. Images are processed locally and never transmitted to any server."
-          },
-          {
-            "label": "Photo Library:",
-            "text": "Accessed only when you import images from your gallery. We only read the images you select."
-          },
-          {
-            "label": "Scanned Documents:",
-            "text": "Remain exclusively on your device. We have no access to them."
-          }
-        ]
+        "html": "<strong>We do not collect any personal data.</strong> ScanEasy processes all data exclusively on your device:",
+        "item0": "<strong>Camera:</strong> Used solely for scanning documents. Images are processed locally and never transmitted to any server.",
+        "item1": "<strong>Photo Library:</strong> Accessed only when you import images from your gallery. We only read the images you select.",
+        "item2": "<strong>Scanned Documents:</strong> Remain exclusively on your device. We have no access to them."
       },
       "noServers": {
         "title": "3. No Servers, No Cloud",
@@ -81,22 +46,12 @@
       },
       "appleServices": {
         "title": "5. Apple Services",
-        "beforeLink": "When using the App through the App Store,",
-        "linkText": "Apple's Privacy Policy",
-        "afterLink": "also applies. Apple may collect anonymized usage data (e.g., app crashes) if you have consented to this in your device settings."
+        "html": "When using the App through the App Store, <a href=\"https://www.apple.com/legal/privacy/\">Apple's Privacy Policy</a> also applies. Apple may collect anonymized usage data (e.g., app crashes) if you have consented to this in your device settings."
       },
       "permissions": {
         "title": "6. Permissions",
-        "items": [
-          {
-            "label": "Camera",
-            "text": "Required for document scanning"
-          },
-          {
-            "label": "Photo Library",
-            "text": "Optional, for importing images"
-          }
-        ],
+        "item0": "<strong>Camera</strong> — Required for document scanning",
+        "item1": "<strong>Photo Library</strong> — Optional, for importing images",
         "paragraph": "You can revoke permissions at any time in iOS Settings."
       },
       "changes": {
@@ -105,15 +60,11 @@
       },
       "contact": {
         "title": "8. Contact",
-        "prefix": "Questions about privacy? Write to us:"
+        "html": "Questions about privacy? Write to us: <a href=\"mailto:easyscan-support@rooki.xyz\">easyscan-support@rooki.xyz</a>"
       }
     }
   },
   "terms": {
-    "metaTitle": "Terms of Service — ScanEasy",
-    "back": "← ScanEasy",
-    "otherLang": "de",
-    "otherLangLabel": "🇩🇪 Deutsch",
     "title": "Terms of Service",
     "date": "Last updated: February 17, 2026",
     "sections": {
@@ -139,10 +90,8 @@
       },
       "disclaimer": {
         "title": "6. Disclaimer",
-        "paragraphs": [
-          "The App is provided \"as is.\" We make no warranties regarding the completeness, accuracy, or quality of scan results. The App is not a substitute for professional digitization services.",
-          "In no event shall we be liable for any indirect, incidental, or consequential damages arising from the use of the App."
-        ]
+        "p0": "The App is provided \"as is.\" We make no warranties regarding the completeness, accuracy, or quality of scan results. The App is not a substitute for professional digitization services.",
+        "p1": "In no event shall we be liable for any indirect, incidental, or consequential damages arising from the use of the App."
       },
       "changes": {
         "title": "7. Changes",
@@ -154,7 +103,7 @@
       },
       "contact": {
         "title": "9. Contact",
-        "prefix": "Questions? Write to us:"
+        "html": "Questions? Write to us: <a href=\"mailto:easyscan-support@rooki.xyz\">easyscan-support@rooki.xyz</a>"
       }
     }
   }

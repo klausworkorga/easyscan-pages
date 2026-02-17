@@ -3,31 +3,13 @@
     "title": "ScanEasy — Dokumente scannen. Einfach.",
     "description": "ScanEasy ist die einfachste Art, Dokumente mit deinem iPhone zu scannen. Kostenlos, privat, offline."
   },
-  "nav": {
-    "langFlag": "🇩🇪",
-    "otherLang": "en",
-    "otherFlag": "🇬🇧",
-    "otherTitle": "English"
-  },
   "hero": {
     "tagline": "Dokumente scannen. Einfach."
   },
   "features": {
-    "autoDetect": {
-      "icon": "📸",
-      "title": "Auto-Erkennung",
-      "desc": "Halte die Kamera drauf — ScanEasy erkennt das Dokument automatisch und scannt es."
-    },
-    "private": {
-      "icon": "🔒",
-      "title": "100% Privat",
-      "desc": "Keine Server, keine Cloud, kein Tracking. Alles bleibt auf deinem iPhone."
-    },
-    "fast": {
-      "icon": "⚡",
-      "title": "Blitzschnell",
-      "desc": "Scannen, zuschneiden, als PDF teilen — in unter 3 Sekunden."
-    }
+    "autoDetect": { "title": "Auto-Erkennung", "desc": "Halte die Kamera drauf — ScanEasy erkennt das Dokument automatisch und scannt es." },
+    "private": { "title": "100% Privat", "desc": "Keine Server, keine Cloud, kein Tracking. Alles bleibt auf deinem iPhone." },
+    "fast": { "title": "Blitzschnell", "desc": "Scannen, zuschneiden, als PDF teilen — in unter 3 Sekunden." }
   },
   "cta": {
     "button": "Bald im App Store",
@@ -37,14 +19,9 @@
     "privacy": "Datenschutz",
     "terms": "Nutzungsbedingungen",
     "contact": "Kontakt",
-    "email": "easyscan-support@rooki.xyz",
     "copyright": "© 2026 ScanEasy"
   },
   "privacy": {
-    "metaTitle": "Datenschutzerklärung — ScanEasy",
-    "back": "← ScanEasy",
-    "otherLang": "en",
-    "otherLangLabel": "🇬🇧 English",
     "title": "Datenschutzerklärung",
     "date": "Zuletzt aktualisiert: 17. Februar 2026",
     "sections": {
@@ -54,22 +31,10 @@
       },
       "dataCollection": {
         "title": "2. Datenerhebung",
-        "introStrong": "Wir erheben keine personenbezogenen Daten.",
-        "introTail": "ScanEasy verarbeitet alle Daten ausschließlich lokal auf deinem Gerät:",
-        "items": [
-          {
-            "label": "Kamera:",
-            "text": "Wird ausschließlich zum Scannen von Dokumenten verwendet. Bilder werden nur lokal verarbeitet und nie an Server übertragen."
-          },
-          {
-            "label": "Fotobibliothek:",
-            "text": "Zugriff nur wenn du Bilder aus der Galerie importierst. Wir lesen nur die von dir ausgewählten Bilder."
-          },
-          {
-            "label": "Gescannte Dokumente:",
-            "text": "Verbleiben ausschließlich auf deinem Gerät. Wir haben keinen Zugriff darauf."
-          }
-        ]
+        "html": "<strong>Wir erheben keine personenbezogenen Daten.</strong> ScanEasy verarbeitet alle Daten ausschließlich lokal auf deinem Gerät:",
+        "item0": "<strong>Kamera:</strong> Wird ausschließlich zum Scannen von Dokumenten verwendet. Bilder werden nur lokal verarbeitet und nie an Server übertragen.",
+        "item1": "<strong>Fotobibliothek:</strong> Zugriff nur wenn du Bilder aus der Galerie importierst. Wir lesen nur die von dir ausgewählten Bilder.",
+        "item2": "<strong>Gescannte Dokumente:</strong> Verbleiben ausschließlich auf deinem Gerät. Wir haben keinen Zugriff darauf."
       },
       "noServers": {
         "title": "3. Keine Server, keine Cloud",
@@ -81,22 +46,12 @@
       },
       "appleServices": {
         "title": "5. Apple-Dienste",
-        "beforeLink": "Wenn du die App über den App Store nutzt, gelten zusätzlich die",
-        "linkText": "Datenschutzrichtlinien von Apple",
-        "afterLink": ". Apple kann anonymisierte Nutzungsdaten erheben (z.B. App-Abstürze), sofern du dem in deinen Geräteeinstellungen zugestimmt hast."
+        "html": "Wenn du die App über den App Store nutzt, gelten zusätzlich die <a href=\"https://www.apple.com/legal/privacy/\">Datenschutzrichtlinien von Apple</a>. Apple kann anonymisierte Nutzungsdaten erheben (z.B. App-Abstürze), sofern du dem in deinen Geräteeinstellungen zugestimmt hast."
       },
       "permissions": {
         "title": "6. Berechtigungen",
-        "items": [
-          {
-            "label": "Kamera",
-            "text": "Erforderlich zum Scannen von Dokumenten"
-          },
-          {
-            "label": "Fotobibliothek",
-            "text": "Optional, zum Import von Bildern"
-          }
-        ],
+        "item0": "<strong>Kamera</strong> — Erforderlich zum Scannen von Dokumenten",
+        "item1": "<strong>Fotobibliothek</strong> — Optional, zum Import von Bildern",
         "paragraph": "Du kannst Berechtigungen jederzeit in den iOS-Einstellungen widerrufen."
       },
       "changes": {
@@ -105,15 +60,11 @@
       },
       "contact": {
         "title": "8. Kontakt",
-        "prefix": "Fragen zum Datenschutz? Schreib uns:"
+        "html": "Fragen zum Datenschutz? Schreib uns: <a href=\"mailto:easyscan-support@rooki.xyz\">easyscan-support@rooki.xyz</a>"
       }
     }
   },
   "terms": {
-    "metaTitle": "Nutzungsbedingungen — ScanEasy",
-    "back": "← ScanEasy",
-    "otherLang": "en",
-    "otherLangLabel": "🇬🇧 English",
     "title": "Nutzungsbedingungen",
     "date": "Zuletzt aktualisiert: 17. Februar 2026",
     "sections": {
@@ -139,10 +90,8 @@
       },
       "disclaimer": {
         "title": "6. Haftungsausschluss",
-        "paragraphs": [
-          "Die App wird \"wie besehen\" bereitgestellt. Wir übernehmen keine Gewähr für die Vollständigkeit, Richtigkeit oder Qualität der Scan-Ergebnisse. Die App dient nicht als Ersatz für professionelle Digitalisierungsdienste.",
-          "In keinem Fall haften wir für indirekte, zufällige oder Folgeschäden, die sich aus der Nutzung der App ergeben."
-        ]
+        "p0": "Die App wird \"wie besehen\" bereitgestellt. Wir übernehmen keine Gewähr für die Vollständigkeit, Richtigkeit oder Qualität der Scan-Ergebnisse. Die App dient nicht als Ersatz für professionelle Digitalisierungsdienste.",
+        "p1": "In keinem Fall haften wir für indirekte, zufällige oder Folgeschäden, die sich aus der Nutzung der App ergeben."
       },
       "changes": {
         "title": "7. Änderungen",
@@ -154,7 +103,7 @@
       },
       "contact": {
         "title": "9. Kontakt",
-        "prefix": "Fragen? Schreib uns:"
+        "html": "Fragen? Schreib uns: <a href=\"mailto:easyscan-support@rooki.xyz\">easyscan-support@rooki.xyz</a>"
       }
     }
   }

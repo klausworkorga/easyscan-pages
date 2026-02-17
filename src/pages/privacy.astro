@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Privacy Policy — ScanEasy">
+  <div class="legal">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <a href="/" class="back">← ScanEasy</a>
+      <nav class="lang-switcher lang-switcher-inline">
+        <span data-lang-switch="en" class="lang-active">🇬🇧</span>
+        <span data-lang-switch="de">🇩🇪</span>
+      </nav>
+    </div>
+
+    <h1 data-t="privacy.title">Privacy Policy</h1>
+    <p class="date" data-t="privacy.date">Last updated: February 17, 2026</p>
+
+    <h2 data-t="privacy.sections.overview.title">1. Overview</h2>
+    <p data-t="privacy.sections.overview.paragraph">ScanEasy ("the App") is a document scanner app for iOS. Your privacy matters to us. This privacy policy explains what data we collect and how we handle it.</p>
+
+    <h2 data-t="privacy.sections.dataCollection.title">2. Data Collection</h2>
+    <p data-th="privacy.sections.dataCollection.html"><strong>We do not collect any personal data.</strong> ScanEasy processes all data exclusively on your device:</p>
+    <ul>
+      <li data-th="privacy.sections.dataCollection.item0"><strong>Camera:</strong> Used solely for scanning documents. Images are processed locally and never transmitted to any server.</li>
+      <li data-th="privacy.sections.dataCollection.item1"><strong>Photo Library:</strong> Accessed only when you import images from your gallery. We only read the images you select.</li>
+      <li data-th="privacy.sections.dataCollection.item2"><strong>Scanned Documents:</strong> Remain exclusively on your device. We have no access to them.</li>
+    </ul>
+
+    <h2 data-t="privacy.sections.noServers.title">3. No Servers, No Cloud</h2>
+    <p data-t="privacy.sections.noServers.paragraph">ScanEasy does not operate any servers and does not use any cloud services. All scanning, recognition, and processing features run 100% on your iPhone.</p>
+
+    <h2 data-t="privacy.sections.thirdParties.title">4. Third Parties</h2>
+    <p data-t="privacy.sections.thirdParties.paragraph">The App does not use any third-party analytics, tracking, or advertising services. No data is shared with third parties.</p>
+
+    <h2 data-t="privacy.sections.appleServices.title">5. Apple Services</h2>
+    <p data-th="privacy.sections.appleServices.html">When using the App through the App Store, <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a> also applies. Apple may collect anonymized usage data (e.g., app crashes) if you have consented to this in your device settings.</p>
+
+    <h2 data-t="privacy.sections.permissions.title">6. Permissions</h2>
+    <ul>
+      <li data-th="privacy.sections.permissions.item0"><strong>Camera</strong> — Required for document scanning</li>
+      <li data-th="privacy.sections.permissions.item1"><strong>Photo Library</strong> — Optional, for importing images</li>
+    </ul>
+    <p data-t="privacy.sections.permissions.paragraph">You can revoke permissions at any time in iOS Settings.</p>
+
+    <h2 data-t="privacy.sections.changes.title">7. Changes</h2>
+    <p data-t="privacy.sections.changes.paragraph">We may update this privacy policy from time to time. Changes will be published on this page.</p>
+
+    <h2 data-t="privacy.sections.contact.title">8. Contact</h2>
+    <p data-th="privacy.sections.contact.html">Questions about privacy? Write to us: <a href="mailto:easyscan-support@rooki.xyz">easyscan-support@rooki.xyz</a></p>
+  </div>
+</BaseLayout>

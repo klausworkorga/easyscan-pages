@@ -27,8 +27,10 @@ body {
 
 .lang-switcher { position: absolute; top: 20px; right: 24px; display: flex; gap: 4px; align-items: center; font-size: 22px; }
 .lang-switcher a { text-decoration: none; padding: 4px 6px; border-radius: 8px; transition: background 0.2s, transform 0.2s; opacity: 0.45; }
-.lang-switcher a:hover { background: rgba(255,255,255,0.06); opacity: 0.8; transform: scale(1.1); }
-.lang-active { padding: 4px 6px; border-radius: 8px; background: rgba(255,255,255,0.06); }
+.lang-switcher span { cursor: pointer; padding: 4px 6px; border-radius: 8px; transition: background 0.2s, transform 0.2s; opacity: 0.45; user-select: none; }
+.lang-switcher span:hover:not(.lang-active) { background: rgba(255,255,255,0.06); opacity: 0.8; transform: scale(1.1); }
+.lang-active { opacity: 1 !important; background: rgba(255,255,255,0.06); cursor: default !important; }
+.lang-switcher-inline { position: static; font-size: 20px; }
 
 .page { position: relative; z-index: 1; max-width: 720px; margin: 0 auto; padding: 0 24px; display: flex; flex-direction: column; align-items: center; min-height: 100vh; }
 
